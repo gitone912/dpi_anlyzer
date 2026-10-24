@@ -1,0 +1,25 @@
+# Build artifacts
+/dpi_engine
+/dpi_engine.exe
+/dpi_simple
+/dpi_simple.exe
+/build/
+/cmake-build-*/
+
+# Generated capture outputs; keep the bundled test input tracked
+/output.pcap
+/run_output.pcap
+/python_output.pcap
+/filtered*.pcap
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
